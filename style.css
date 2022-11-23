@@ -5,6 +5,7 @@ body{
     background-size: cover;
     background-position: center;
 }
+
 h1{
     color: white;
     text-align: center;
@@ -30,9 +31,9 @@ h1{
 }
 
 p{
-    font-size: 10px;
     font-family: sans-serif;
 }
+
 #titlu_principal{
     font-family: sans-serif;
     font-size: 25px;
@@ -48,34 +49,35 @@ p{
     font-weight: bold;
 }
 
-#menu {
-    list-style: none;
-    float: left;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-
 ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}	
+
+#a1 {
+	display: block;
+	padding: 8px;
+	background-color: url(https://www.html5webtemplates.co.uk/wp-content/uploads/2020/templates/textured_stars/style/transparent_light.png);
+	font-size: 26px;
+	font-family: sans-serif;
+	
 }
 
-div {
-    display: block;
+#li1{
+	display: inline;
+	float: left;
 }
-#menubar {
-    width: 900px;
-    height: 72px;
-    padding: 0;
-    background: transparent url(transparent_light.png) repeat;
+
+a:link {
+  color: black;
 }
+
+a:visited {
+  color: black;
+}
+
+a{
+	text-decoration: none;
+}
+
