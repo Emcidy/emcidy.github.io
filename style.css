@@ -23,6 +23,17 @@ h1{
     padding: 20px 24px 20px 20px;
 }
 
+#box2{
+    width: 80%;
+    overflow: hidden;
+    background: transparent url(https://www.html5webtemplates.co.uk/wp-content/uploads/2020/templates/textured_stars/style/transparent_light.png);
+    margin: 0 auto 0 auto;
+    padding: 20px 24px 20px 20px;
+    position: relative;
+    top: 63px;
+    left: -165px;
+}
+
 #content{
     text-align: left;
     float: left;
@@ -65,19 +76,24 @@ ul {
 }
 
 #li1{
+    -webkit-text-stroke: 1px black;
 	display: inline;
 	float: left;
 }
 
 a:link {
-  color: black;
+    font-size: 15px;
+    -webkit-text-stroke: 1px black;
+  color: Black;
 }
 
 a:visited {
+  -webkit-text-stroke: 1px black;
   color: black;
 }
 
 a{
 	text-decoration: none;
 }
+
 
