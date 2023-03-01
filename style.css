@@ -23,6 +23,14 @@ h1{
     padding: 20px 24px 20px 20px;
 }
 
+#content1 {
+    width: 80%;
+    overflow: hidden;
+    background: transparent url(https://www.html5webtemplates.co.uk/wp-content/uploads/2020/templates/textured_stars/style/transparent_light.png);
+    margin: 0 auto 0 auto;
+    padding: 20px 24px 20px 20px;
+}
+
 #box2{
     width: 80%;
     overflow: hidden;
@@ -31,7 +39,7 @@ h1{
     padding: 20px 24px 20px 20px;
     position: relative;
     top: 63px;
-    left: -165px;
+    left: -161px;
 }
 
 #content{
